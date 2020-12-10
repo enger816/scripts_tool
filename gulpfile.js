@@ -34,6 +34,7 @@ gulp.task("build", async function () {
             buildDelay: 100
         },
         input: "src/Main.ts",
+        treeshake: false, //建议忽略
         output: {
             file: 'bin/js/bundle.js',
             format: 'iife', //iife
@@ -58,6 +59,12 @@ gulp.task("build", async function () {
         console.log("restart:", evt);
     });
     var subTask = await rollup.rollup({
+        onwarn:(waring,warn)=>{
+			if(waring.code == "CIRCULAR_DEPENDENCY"){
+				console.log("warnning Circular dependency:");
+				console.log(waring);
+			}
+		},
         input: "src/Main.ts",
         output: {
             file: 'bin/js/bundle.js',
@@ -69,12 +76,6 @@ gulp.task("build", async function () {
             rollupTypescript()
         ]
     });
-    // await subTask.write({
-    //     file: 'bin/js/bundle.js',
-    //     format: 'iife', //iife
-    //     extend: true,
-    //     name: 'bundle'
-    // });
 });
 
 //3.copy bin to release
