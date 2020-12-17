@@ -1,0 +1,45 @@
+{
+    "provider": "wx9170ca1ff6f31088",
+    "signature": [
+        {
+            "path": "index.js",
+            "md5": "8f343cb2fb01c08661fddc559ecd7161"
+        },
+        {
+            "path": "laya.core.min.js",
+            "md5": "2e5e719638ebcc0a38aa1e5b976d527e"
+        },
+        {
+            "path": "laya.wxmini.min.js",
+            "md5": "fc61686baa3629ff663d7aad46b8f97f"
+        },
+        {
+            "path": "laya.webgl.min.js",
+            "md5": "57d355ac717100739620d6918050c338"
+        },
+        {
+            "path": "laya.ui.min.js",
+            "md5": "bb31a77d1356950bf8d20cf80bcffe73"
+        },
+        {
+            "path": "laya.tiledmap.min.js",
+            "md5": "ff5fad8e928a956d162d50170e12602e"
+        },
+        {
+            "path": "laya.particle.min.js",
+            "md5": "d112d94848e2de00a75de8e5f79cd74f"
+        },
+        {
+            "path": "laya.html.min.js",
+            "md5": "80dfa823d6284fd29ac1ccae4b7209ce"
+        },
+        {
+            "path": "laya.filter.min.js",
+            "md5": "98c5ff04954a16e8db29e1032c4ee587"
+        },
+        {
+            "path": "laya.ani.min.js",
+            "md5": "5a39a1edb867657c1ff03ec8de2b6456"
+        }
+    ]
+}

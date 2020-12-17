@@ -1,0 +1,9 @@
+require("./laya.core.min.js");
+require("./laya.qqmini.min.js");
+require("./laya.webgl.min.js");
+require("./laya.ui.min.js");
+require("./laya.tiledmap.min.js");
+require("./laya.particle.min.js");
+require("./laya.html.min.js");
+require("./laya.filter.min.js");
+require("./laya.ani.min.js");

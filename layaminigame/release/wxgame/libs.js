@@ -1,0 +1,15 @@
+;
+;
+require("./libs/laya.bdmini.js");
+require("./libs/laya.xmmini.js");
+require("./libs/laya.quickgamemini.js");
+require("./libs/laya.Alipaymini.js");
+require("./libs/laya.qqmini.js");
+;
+require("./libs/laya.vvmini.js");
+;
+;
+;
+;
+;
+;
