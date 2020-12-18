@@ -1,0 +1,21 @@
+{
+    "provider": "1109625052",
+    "signature": [
+        {
+            "path": "index.js",
+            "md5": "460a96d3a88fe540c81a7fa7d48166f3"
+        },
+        {
+            "path": "laya.core.js",
+            "md5": "4da10be31db39618873aa2ce8e7195c1"
+        },
+        {
+            "path": "laya.d3.js",
+            "md5": "6eda7608f88b366a6512f182c4387b13"
+        },
+        {
+            "path": "laya.ui.js",
+            "md5": "7d8c89e4082e3de46d6a10c335fbcb5d"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "deviceOrientation": "portrait",
+    "showStatusBar": false,
+    "networkTimeout": {
+        "request": 5000,
+        "connectSocket": 5000,
+        "uploadFile": 5000,
+        "downloadFile": 5000
+    },
+    "plugins": {
+        "layaPlugin": {
+            "version": "2.8.0",
+            "provider": "1109625052",
+            "path": "laya-libs"
+        }
+    }
+}
